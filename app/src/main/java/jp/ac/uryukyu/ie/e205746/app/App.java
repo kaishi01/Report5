@@ -5,16 +5,10 @@ package jp.ac.uryukyu.ie.e205746.app;
 
 public class App {
     public static void main(String[] args) {
-        String str = null;
-        //System.out.println(str.length());
+        String str = "百二十三";
 
-        try {
-            System.out.println(str.length());
-
-        } catch (NullPointerException e) {
-            System.out.println("NullPointerException発生");
-            System.out.println(e.getMessage());
-        }
+        
+        int value = Integer.parseInt(str);
         
     }
 }
