@@ -3,16 +3,10 @@
  */
 package jp.ac.uryukyu.ie.e205746.app;
 
-import jp.ac.uryukyu.ie.e205746.list.LinkedList;
-
-import static jp.ac.uryukyu.ie.e205746.utilities.StringUtils.join;
-import static jp.ac.uryukyu.ie.e205746.utilities.StringUtils.split;
-import static jp.ac.uryukyu.ie.e205746.app.MessageUtils.getMessage;
-
 public class App {
     public static void main(String[] args) {
-        LinkedList tokens;
-        tokens = split(getMessage());
-        System.out.println(join(tokens));
+        String str = null;
+        System.out.println(str.length());
+        
     }
 }
